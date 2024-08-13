@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="Main_Container">
+      <h1 class="Heading">Countdown Timer</h1>
+      <div class="date_time">
+        <label for="Date and Time">Select Date and Time :</label>
+        <input type="datetime-local" id="DateTime" />
+      </div>
+
+      <br />
+      <div class="Button_Section">
+        <button class="Button" id="Startbtn">Start Countdown</button>
+        <button class="Button" id="Pausebtn" disabled>Pause Countdown</button>
+        <button class="Button" id="Cancelbtn" disabled>Cancel Countdown</button>
+        <button class="Button" id="Resumebtn" disabled>Resume Countdown</button>
+      </div>
+
+      <div class="Time_zone">
+        <div class="extra Days">
+          <div id="Days">00</div>
+          <div>Days</div>
+        </div>
+        <div class="extra Hours">
+          <div id="Hours">00</div>
+          <div>Hours</div>
+        </div>
+        <div class="extra Minutes">
+          <div id="Minutes">00</div>
+          <div>Minutes</div>
+        </div>
+        <div class="extra Seconds">
+          <div id="Seconds">00</div>
+          <div>Seconds</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Developed By Rana Abdullah Javed</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
